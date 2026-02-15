@@ -19,4 +19,4 @@ The purpose of this repository is to **practice and showcase testing skills**.
 To run the project locally:
 1. Clone the repository:
 ```bash
-git clone https://github.com/Korolchuk.Keteryna/Clima.git
+git clone https://github.com/Korolchuk.Keteryna/KLYMO
