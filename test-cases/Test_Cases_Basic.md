@@ -15,6 +15,7 @@
 **Expected Result:** Each button navigates to the correct section/page. No errors occur.
 
 **Priority:** High
+
 ---
 ### Test Case ID: TC02
 **Title:** Language Switcher
@@ -190,4 +191,5 @@
 **Expected Result:**
 - System does not crash
 - User sees a warning message indicating invalid input **or** the input field remains empty
+
 **Priority:** High
