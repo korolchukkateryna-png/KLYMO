@@ -31,6 +31,7 @@
 **Expected Result:** Page content changes according to selected language. Layout remains intact.
 
 **Priority:** High
+
 ---
 ### Test Case ID: TC03
 **Title:** "Автоматизувати" Button in Header
@@ -44,6 +45,7 @@
 **Expected Result:** User is redirected to the automation section/page without errors.
 
 **Priority:** High
+
 ---
 ### Test Case ID: TC04
 **Title:** AI Prompt Input Box
@@ -58,6 +60,7 @@
 **Expected Result:** Prompt is accepted; suggestions appear; AI response is generated correctly.
 
 **Priority:** High
+
 ---
 ### Test Case ID: TC05
 **Title:** Training Promotion Section
@@ -72,6 +75,7 @@
 **Expected Result:** User is redirected to training details page. No errors occur.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC06
 **Title:** Business Automation Section
@@ -86,6 +90,7 @@
 **Expected Result:** User is redirected to automation page. No errors occur.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC07
 **Title:** Footer Product Links
@@ -100,6 +105,7 @@
 **Expected Result:** Each link navigates to the correct product page/section.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC08
 **Title:** Footer Service Links
@@ -113,6 +119,7 @@
 **Expected Result:** Each link navigates to the correct service page/section.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC09
 **Title:** Footer Company Links
@@ -125,6 +132,7 @@
 **Expected Result:** Each link navigates to the correct page.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC10
 **Title:** Social Media Links
@@ -137,6 +145,7 @@
 **Expected Result:** Each icon opens the correct social media page in a new tab.
 
 **Priority:** Low
+
 ---
 ##  Basic Negative Test Cases
 ### Test Case ID: TC11
@@ -152,6 +161,7 @@
 **Expected Result:** System either ignores invalid input or shows an error message. No crash occurs.
 
 **Priority:** High
+
 ---
 ### Test Case ID: TC12
 **Title:** Clicking Links Before Page Loads Fully
@@ -164,6 +174,7 @@
 **Expected Result:** Buttons navigate correctly or show loading feedback. Page does not crash.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC13
 **Title:** Rapid Language Switching
@@ -176,6 +187,7 @@
 **Expected Result:** Page content remains consistent, no broken text or layout errors occur.
 
 **Priority:** Medium
+
 ---
 ### Test Case ID: TC14
 **Title:** Empty or Whitespace Input in Prompt Box
