@@ -5,6 +5,7 @@
 
 ### TC15
 **Title:** Verify dropdown opens when clicking "Рішення"
+
 **Precondition:** User is on homepage
 
 **Test Steps:**
@@ -20,6 +21,7 @@ Dropdown menu appears displaying list of solutions
 
 ### TC16
 **Title:** Verify dropdown closes when clicking outside
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -34,6 +36,7 @@ Dropdown closes
 
 ### TC17
 **Title:** Verify "Клира" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -48,6 +51,7 @@ User is redirected to Klira product page
 
 ### TC18
 **Title:** Verify "Клим" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -62,6 +66,7 @@ Correct product page opens
 
 ### TC19
 **Title:** Verify "Клио" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -76,6 +81,7 @@ Correct page opens
 
 ### TC20
 **Title:** Verify "Усі продукти" button navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -90,6 +96,7 @@ All products page opens
 
 ### TC21
 **Title:** Verify "AI інтеграція" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -104,6 +111,7 @@ User redirected to AI integration page
 
 ### TC22
 **Title:** Verify "AI аудит" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -118,6 +126,7 @@ Audit service page opens
 
 ### TC23
 **Title:** Verify "AI навчання" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -132,6 +141,7 @@ Training page opens
 
 ### TC24
 **Title:** Verify "Усі послуги" button navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -146,6 +156,7 @@ Services page opens
 
 ### TC25
 **Title:** Verify "Генератор промптів" navigation
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -160,6 +171,7 @@ Prompt generator page opens
 
 ### TC26
 **Title:** Verify "Безкоштовна консультація" button
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -174,6 +186,7 @@ Consultation form or contact page opens
 
 ### TC27
 **Title:** Verify dropdown items are readable and not overlapping
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -188,6 +201,7 @@ All elements are readable, aligned, and visible
 
 ### TC28
 **Title:** Verify hover state for dropdown items
+
 **Precondition:** Dropdown is open
 
 **Test Steps:**
@@ -202,6 +216,7 @@ Hover effect is visible for each item
 
 ### TC29
 **Title:** Verify dropdown does not cause layout shift
+
 **Precondition:** User on homepage
 
 **Test Steps:**
@@ -216,6 +231,7 @@ Page layout remains stable
 
 ### TC30
 **Title:** Verify no console errors when interacting with dropdown
+
 **Precondition:** Browser DevTools open
 
 **Test Steps:**
