@@ -2,8 +2,6 @@
 
 | ID | Check Item | Status | Notes |
 |----|------------|--------|-------|
-
-## Full Test (Complete form testing)
 | FT-01 | Page loads successfully |✅ | |
 | FT-02 | No console errors on page load |✅ | |
 | FT-03 | Form «Залиште заявку» is visible |✅ | |
