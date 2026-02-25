@@ -2,7 +2,7 @@
 
 ## Positive Test Cases
 
-### TC30
+### TCR01
 **Title:** Submit form with valid data
 **Precondition:** User is on the «Залиште заявку» form page
 **Test Steps:**
@@ -13,7 +13,7 @@
 **Expected Result:** Form submits successfully, success message appears, form resets
 **Priority:** High
 
-### TC40
+### TCR02
 Title: Submit form with minimal valid input length
 Precondition: User is on the «Залиште заявку» form page
 Test Steps:
@@ -24,7 +24,7 @@ Test Steps:
 Expected Result: Form submits successfully, success message appears
 Priority: High
 
-### TC41
+### TCR03
 Title: Submit form with maximum allowed input length
 Precondition: User is on the form page
 Test Steps:
@@ -35,7 +35,7 @@ Test Steps:
 Expected Result: Form submits successfully without UI breaking
 Priority: Medium
 
-### TC42
+### TCR04
 Title: Name field accepts hyphenated and double names
 Precondition: User is on the form page
 Test Steps:
@@ -46,7 +46,7 @@ Test Steps:
 Expected Result: Form submits successfully
 Priority: Medium
 
-### TC43
+### TCR05
 Title: Email field accepts subdomain email
 Precondition: User is on the form page
 Test Steps:
@@ -56,7 +56,7 @@ Test Steps:
 Expected Result: Form submits successfully
 Priority: Medium
 
-### TC44
+### TCR06
 Title: Phone field accepts number with country code and spaces
 Precondition: User is on the form page
 Test Steps:
@@ -66,7 +66,7 @@ Test Steps:
 Expected Result: Form submits successfully
 Priority: Medium
 
-### TC45
+### TCR07
 Title: Form submission via Enter key
 Precondition: User filled all fields with valid data
 Test Steps:
@@ -75,7 +75,7 @@ Test Steps:
 Expected Result: Form submits successfully
 Priority: Medium
 
-### TC46
+### TCR08
 Title: Successful submission does not duplicate request on page refresh
 Precondition: Form was successfully submitted
 Test Steps:
@@ -84,7 +84,7 @@ Test Steps:
 Expected Result: Form is not resubmitted automatically, no duplicate request created
 Priority: High
 
-### TC39
+### TCR09
 **Title:** Cross-browser check
 **Precondition:** User is on the form page
 **Test Steps:**
@@ -98,7 +98,7 @@ Priority: High
 
 ## Negative Test Cases
 
-### TC34
+### TCRN01
 **Title:** Leave all fields empty and submit
 **Precondition:** User is on the form page
 **Test Steps:**
@@ -109,7 +109,7 @@ Priority: High
 **Expected Result:** Validation messages appear for all fields, form does not submit
 **Priority:** High
 
-### TC35
+### TCRN02
 **Title:** Enter only whitespace in all fields
 **Precondition:** User is on the form page
 **Test Steps:**
@@ -120,7 +120,7 @@ Priority: High
 **Expected Result:** Validation messages appear, fields are treated as empty, form does not submit
 **Priority:** High
 
-### TC36
+### TCRN03
 **Title:** Enter invalid email format
 **Precondition:** User is on the form page
 **Test Steps:**
@@ -130,7 +130,7 @@ Priority: High
 **Expected Result:** Validation message appears for email, form does not submit
 **Priority:** High
 
-### TC37
+### TCRN04
 **Title:** Enter invalid phone number
 **Precondition:** User is on the form page
 **Test Steps:**
@@ -141,7 +141,7 @@ Priority: High
 **Priority:** High
 
 
-### TC47
+### TCRN05
 Title: Submit form with extremely long name input
 Precondition: User is on the form page
 Test Steps:
@@ -153,9 +153,9 @@ Expected Result:
 Form does not break UI, input is limited or validation message appears
 Priority: High
 
----
 
-### TC48
+
+### TCRN06
 Title: Submit form with special characters in name field
 Precondition: User is on the form page
 Test Steps:
@@ -166,9 +166,9 @@ Expected Result:
 Validation error appears, form is not submitted
 Priority: High
 
----
 
-### TC49
+
+### TCRN07
 Title: Submit form with script injection attempt (XSS)
 Precondition: User is on the form page
 Test Steps:
@@ -179,9 +179,9 @@ Expected Result:
 Script is not executed, input is sanitized, form is not submitted
 Priority: High
 
----
 
-### TC50
+
+### TCRN08
 Title: Submit form with SQL injection attempt
 Precondition: User is on the form page
 Test Steps:
@@ -192,9 +192,9 @@ Expected Result:
 Form rejects input or sanitizes it, no system error occurs
 Priority: High
 
----
 
-### TC51
+
+### TCRN09
 Title: Submit form with invalid email edge cases
 Precondition: User is on the form page
 Test Steps:
@@ -205,9 +205,9 @@ Expected Result:
 Validation message appears, form is not submitted
 Priority: High
 
----
 
-### TC52
+
+### TCRN10
 Title: Submit form with phone containing letters
 Precondition: User is on the form page
 Test Steps:
@@ -218,9 +218,9 @@ Expected Result:
 Validation error appears, form is not submitted
 Priority: High
 
----
 
-### TC53
+
+### TCRN11
 Title: Rapid multiple clicks on submit button
 Precondition: All fields contain valid data
 Test Steps:
@@ -229,9 +229,9 @@ Expected Result:
 Only one request is sent, no duplicate submissions
 Priority: High
 
----
 
-### TC54
+
+### TCRN12
 Title: Network interruption during submission
 Precondition: All fields contain valid data
 Test Steps:
