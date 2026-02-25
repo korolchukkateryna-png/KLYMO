@@ -4,8 +4,11 @@
 
 ### TCR01
 **Title:** Submit form with valid data
+
 **Precondition:** User is on the «Залиште заявку» form page
+
 **Test Steps:**
+
 1. Enter valid name in «Ваше ім'я» field
 2. Enter valid email in «e-mail» field
 3. Enter valid phone number in «Телефон» field
@@ -17,25 +20,31 @@
 
 ### TCR02
 Title: Submit form with minimal valid input length
-Precondition: User is on the «Залиште заявку» form page
+**Precondition:** User is on the «Залиште заявку» form page
+
 Test Steps:
 1. Enter minimal allowed length name (e.g., 2 characters) in «Ваше ім'я»
 2. Enter valid email
 3. Enter minimal valid phone number
 4. Click «Надіслати»
-Expected Result: Form submits successfully, success message appears
-Priority: High
+
+**Expected Result:** Form submits successfully, success message appears
+
+**Priority:** High
 
 ### TCR03
 Title: Submit form with maximum allowed input length
 Precondition: User is on the form page
+
 Test Steps:
 1. Enter maximum allowed characters in «Ваше ім'я»
 2. Enter long but valid email address
 3. Enter maximum allowed phone length
 4. Click «Надіслати»
-Expected Result: Form submits successfully without UI breaking
-Priority: Medium
+
+**Expected Result:** Form submits successfully without UI breaking
+
+**Priority:** Medium
 
 ### TCR04
 Title: Name field accepts hyphenated and double names
