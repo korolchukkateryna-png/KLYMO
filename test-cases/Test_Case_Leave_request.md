@@ -10,7 +10,9 @@
 2. Enter valid email in «e-mail» field
 3. Enter valid phone number in «Телефон» field
 4. Click «Надіслати» button
+
 **Expected Result:** Form submits successfully, success message appears, form resets
+
 **Priority:** High
 
 ### TCR02
