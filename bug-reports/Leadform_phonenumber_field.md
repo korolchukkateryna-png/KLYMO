@@ -2,7 +2,7 @@
 
 **ID:** BR01
 
-**Type:**Input Validation
+**Type:** Input Validation
 
 **Title:** Phone number field accepts less than required digits
 
