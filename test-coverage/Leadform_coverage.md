@@ -1,6 +1,6 @@
-#Test Cases Leave Your Request – Positive Cases
+# Test Cases Leave Your Request – Positive Cases
 
-| Test Case ID | Title | Status / Coverage / Notes |
+| Test Case ID | Title | Coverage Status |
 |--------------|-------|--------------------------|
 | TCR01 | Submit form with valid data | |
 | TCR02 | Email field accepts valid emails | |
@@ -13,9 +13,9 @@
 | TCR09 | Submit button enabled only when all required fields filled | |
 
 
-#Test Cases Leave Your Request – Negative Cases
+# Test Cases Leave Your Request – Negative Cases
 
-| Test Case ID | Title | Status / Coverage / Notes |
+| Test Case ID | Title | Coverage Status |
 |--------------|-------|--------------------------|
 | TCRN01 | Submit form with empty fields | |
 | TCRN02 | Email field rejects invalid emails | |
