@@ -1,12 +1,12 @@
 ## Bug ID BR07
 
-**Title:**Submit form with SQL injection attempt
+**Title:** Submit form with SQL injection attempt
 
-**Type:**Security / Input Validation
+**Type:** Security / Input Validation
 
-**Severity:**Critical
+**Severity:** Critical
 
-**Priority:**High
+**Priority:** High
 
 ## Description
 The form does not properly validate or sanitize input in the "Ваше ім'я" field.
