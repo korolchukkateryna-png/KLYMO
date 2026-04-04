@@ -1,8 +1,12 @@
 
-**Bug ID:** BR05
+## Bug ID: BR05
+
 **Title:** Form accepts special characters in the "Name" field and submits successfully
+
 **Type:** Functional / Validation Bug
+
 **Severity:** High
+
 **Priority:** High
 
 ## Description
