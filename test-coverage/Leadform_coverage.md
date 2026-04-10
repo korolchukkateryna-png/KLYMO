@@ -2,31 +2,31 @@
 
 | Test Case ID | Title | Coverage Status |
 |--------------|-------|--------------------------|
-| TCR01 | Submit form with valid data | |
-| TCR02 | Email field accepts valid emails | |
-| TCR03 | Phone field accepts valid numbers | |
-| TCR04 | Name field accepts valid names | |
-| TCR05 | Form navigable via tab | |
-| TCR06 | Required fields validation | |
-| TCR07 | Success message displayed on submit | |
-| TCR08 | Form reset after submission | |
-| TCR09 | Submit button enabled only when all required fields filled | |
+| TCR01 | Submit form with valid data |✅ |
+| TCR02 | Submit form with minimal valid input length |❌ phone number field accepts less than required symbols,no validation warning shown |
+| TCR03 | Submit form with maximum allowed input length |✅ |
+| TCR04 | Name field accepts hyphenated and double names|✅ |
+| TCR05 | Email field accepts subdomain email | ✅|
+| TCR06 | Phone field accepts number with country code and spaces | ✅ |
+| TCR07 | Form submission via Enter key | ✅|
+| TCR08 | Successful submission does not duplicate request on page refresh |✅ |
+| TCR09 | Cross-browser check |✅ |
 
 
 # Test Cases Leave Your Request – Negative Cases
 
 | Test Case ID | Title | Coverage Status |
 |--------------|-------|--------------------------|
-| TCRN01 | Submit form with empty fields | |
-| TCRN02 | Email field rejects invalid emails | |
-| TCRN03 | Phone field rejects invalid numbers | |
-| TCRN04 | Name field rejects invalid characters | |
-| TCRN05 | Submit without required fields | |
-| TCRN06 | Rapid multiple submissions | |
-| TCRN07 | Enter special characters in fields | |
-| TCRN08 | Input fields maxlength exceeded | |
-| TCRN09 | Submit with only whitespace | |
-| TCRN10 | Submit with unsupported symbols in email | |
-| TCRN11 | Submit with non-numeric phone | |
-| TCRN12 | Submit with SQL injection attempt | |
+| TCRN01 | Submit form with empty fields | ✅|
+| TCRN02 | Enter only whitespace in all fields | ✅|
+| TCRN03 | Enter invalid email format |✅ |
+| TCRN04 | Enter invalid phone number |✅ |
+| TCRN05 | Submit form with extremely long name input |❌ had no limited or validation message |
+| TCRN06 | Submit form with special characters in name field |❌ the form is submit successfully |
+| TCRN07 | Submit form with script injection attempt (XSS) |❌ the form is submit successfully |
+| TCRN08 | Submit form with SQL injection attempt |❌ the form is submit successfully |
+| TCRN09 | Submit form with invalid email edge cases |✅ |
+| TCRN10 | Submit form with phone containing letters |❌ the form is submit successfully |
+| TCRN11 | Rapid multiple clicks on submit button |✅ |
+| TCRN12 | Network interruption during submission |✅this case got improvment |
 
