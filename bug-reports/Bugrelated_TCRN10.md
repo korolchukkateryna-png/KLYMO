@@ -1,13 +1,12 @@
-## Bug ID
-BR08
+## Bug ID BR08
 
-**Title:**Form accepts letters in the phone number field and submits successfully
+**Title:** Form accepts letters in the phone number field and submits successfully
 
-**Type:**Functional / Validation Bug
+**Type:** Functional / Validation Bug
 
-**Severity:**High
+**Severity:** High
 
-**Priority:**High
+**Priority:** High
 
 ## Description
 The phone number field allows input containing alphabetic characters and does not validate the format.
